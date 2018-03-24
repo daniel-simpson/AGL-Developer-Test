@@ -116,6 +116,9 @@
     <Content Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="..\..\people.json">
+      <Link>people.json</Link>
+    </EmbeddedResource>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
