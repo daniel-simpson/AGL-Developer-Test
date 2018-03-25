@@ -5,12 +5,12 @@ VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatLister.Tests", "src\CatLister.Tests\CatLister.Tests.csproj", "{21141360-8094-4A83-8DF3-D20A6C9C8FF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatLister", "src\CatLister\CatLister.csproj", "{43CB5245-830D-46A4-90FF-C457272178DD}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ECE08275-A438-455E-A0D1-A951FA8100DA}"
 	ProjectSection(SolutionItems) = preProject
 		people.json = people.json
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatLister", "src\CatLister\CatLister.csproj", "{4C9E6ACE-3073-4C20-A9DC-6DB5EDEBA77A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,10 +22,10 @@ Global
 		{21141360-8094-4A83-8DF3-D20A6C9C8FF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21141360-8094-4A83-8DF3-D20A6C9C8FF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21141360-8094-4A83-8DF3-D20A6C9C8FF7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{43CB5245-830D-46A4-90FF-C457272178DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{43CB5245-830D-46A4-90FF-C457272178DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{43CB5245-830D-46A4-90FF-C457272178DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{43CB5245-830D-46A4-90FF-C457272178DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C9E6ACE-3073-4C20-A9DC-6DB5EDEBA77A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C9E6ACE-3073-4C20-A9DC-6DB5EDEBA77A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C9E6ACE-3073-4C20-A9DC-6DB5EDEBA77A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C9E6ACE-3073-4C20-A9DC-6DB5EDEBA77A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
