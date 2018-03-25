@@ -110,6 +110,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Services\PersonServiceFixture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -126,12 +127,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CatLister\CatLister.csproj">
-      <Project>{43cb5245-830d-46a4-90ff-c457272178dd}</Project>
+      <Project>{4c9e6ace-3073-4c20-a9dc-6db5edeba77a}</Project>
       <Name>CatLister</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
